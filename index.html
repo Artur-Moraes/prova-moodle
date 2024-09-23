@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde e Cuidados Pessoais</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-hamburguer">
+                
+                <span>☰</span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#alimentacao">Alimentação</a></li>
+                <li><a href="#exercicios">Exercícios</a></li>
+                <li><a href="#saude-mental">Saúde Mental</a></li>
+                <li><a href="#imc">Calculadora de IMC</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Saúde e Cuidados Pessoais</h1>
+            <p>Descubra como manter uma vida saudável com alimentação balanceada, exercícios físicos e cuidados com a saúde mental.</p>
+        </section>
+
+        <section id="alimentacao">
+            <h2>Alimentação Saudável</h2>
+            <p>Dicas sobre como manter uma dieta equilibrada e saudável.</p>
+        </section>
+
+        <section id="exercicios">
+            <h2>Exercícios Físicos</h2>
+            <p>Atividades físicas para iniciantes e avançados, e sugestões de exercícios.</p>
+        </section>
+
+        <section id="saude-mental">
+            <h2>Saúde Mental</h2>
+            <p>Técnicas de meditação e dicas para cuidar do bem-estar emocional.</p>
+        </section>
+
+        <section id="imc">
+            <h2>Calculadora de IMC</h2>
+            <form id="imc-form">
+                <label for="peso">Peso (kg):</label>
+                <input type="number" id="peso" name="peso" required>
+                <label for="altura">Altura (m):</label>
+                <input type="number" id="altura" name="altura" step="0.01" required>
+                <button type="submit">Calcular IMC</button>
+            </form>
+            <p id="resultado-imc"></p>
+        </section>
+    </main>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
